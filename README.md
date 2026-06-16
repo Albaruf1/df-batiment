@@ -1,4 +1,4 @@
- # DF Bâtiment — Plateforme digitale
+# DF Bâtiment — Plateforme digitale
 
 Site multi-pages **Next.js (App Router) + TypeScript + Tailwind + Framer Motion**.
 Identité officielle DF Bâtiment intégrée (logo source + bleu `#0078B8` / anthracite `#182830`).
