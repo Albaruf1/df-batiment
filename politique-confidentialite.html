@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DF Bâtiment — Politique de confidentialité</title>
+<meta name="description" content="Politique de confidentialité RGPD du site DF Bâtiment.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="nav solid" id="nav">
+  <div class="nav-in">
+    <a href="index.html" class="nav-logo" aria-label="DF Bâtiment"><img src="assets/logo-df.png" alt="DF Bâtiment"></a>
+    <nav class="nav-links">
+      <a href="realisations.html">Réalisations</a><a href="index.html#expertises">Expertises</a><a href="index.html#methode">Méthode</a><a href="index.html#groupe">Groupe DF</a><a href="rejoignez-nous.html">Rejoignez-nous</a><a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <a href="#" class="btn btn-ghost">Espace client</a>
+      <a href="index.html#contact" class="btn btn-solid">Demander un devis <span class="ar">→</span></a>
+      <button class="nav-burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<section class="phero" style="padding-bottom:50px"><div class="rgrid"></div><div class="wrap">
+  <div class="crumb"><a href="index.html">Accueil</a> / Confidentialité</div>
+  <h1 style="font-size:clamp(34px,4vw,56px)">Politique de <em>confidentialité.</em></h1>
+</div></section>
+<section class="sec"><div class="wrap"><div class="prose rv">
+  <p class="meta">Conforme au RGPD (UE 2016/679) — Dernière mise à jour : juin 2026</p>
+  <h2>Responsable du traitement</h2>
+  <p><strong>DF Bâtiment SA</strong>, Rue du Bassin collecteur 5, 1130 Haren, Belgique — <a href="mailto:info@df-batiment.be">info@df-batiment.be</a>.</p>
+  <h2>Données collectées</h2>
+  <p>Nous collectons uniquement les données que vous nous communiquez volontairement via le formulaire de contact ou par e-mail : nom, coordonnées et informations relatives à votre projet. Aucune donnée sensible n'est demandée.</p>
+  <h2>Finalités &amp; base légale</h2>
+  <p>Vos données servent exclusivement à répondre à votre demande, établir un devis et assurer le suivi de la relation commerciale. La base légale est votre consentement et l'exécution de mesures précontractuelles.</p>
+  <h2>Conservation</h2>
+  <p>Les données sont conservées le temps nécessaire au traitement de votre demande, puis archivées conformément aux obligations légales (notamment comptables et fiscales) avant suppression.</p>
+  <h2>Vos droits</h2>
+  <p>Vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation et d'opposition au traitement de vos données. Pour les exercer, écrivez à <a href="mailto:info@df-batiment.be">info@df-batiment.be</a>. Vous pouvez également introduire une réclamation auprès de l'Autorité de protection des données (APD), Rue de la Presse 35, 1000 Bruxelles.</p>
+  <h2>Cookies</h2>
+  <p>Ce site n'utilise pas de cookies de suivi publicitaire. Seuls des cookies strictement techniques peuvent être déposés pour le bon fonctionnement de la page.</p>
+</div></div></section>
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <img src="assets/logo-df.png" alt="DF Bâtiment">
+        <p>Entreprise générale du bâtiment à Bruxelles. Depuis 2009, nous construisons la confiance autant que les murs.</p>
+      </div>
+      <div><h5>Expertises</h5><a href="index.html#expertises">Construction neuve</a><a href="index.html#expertises">Rénovation lourde</a><a href="index.html#expertises">Gestion de chantier</a><a href="ferronnerie.html">Ferronnerie</a><a href="index.html#expertises">Peinture &amp; revêtements</a></div>
+      <div><h5>Groupe</h5><a href="index.html#groupe">DF Bâtiment</a><a href="index.html#groupe">DF Coatings</a><a href="ferronnerie.html">DF Ferronnerie</a><a href="realisations.html">Réalisations</a><a href="rejoignez-nous.html">Recrutement</a></div>
+      <div><h5>Contact</h5><span class="fp">Rue du Bassin collecteur 5<br>1130 Haren, Belgique</span><a href="tel:+3228507033">+32 (0)2 850 70 33</a><a href="mailto:info@df-batiment.be">info@df-batiment.be</a><span class="fp mono" style="margin-top:14px;color:rgba(255,255,255,.4)">BE 0824.286.796</span></div>
+    </div>
+    <div class="foot-bottom"><span class="mono">© 2026 DF Bâtiment — Tous droits réservés · <a href="mentions-legales.html" style="display:inline">Mentions légales</a> · <a href="politique-confidentialite.html" style="display:inline">Confidentialité</a></span><span class="mono">Nous transformons les plans en réalité</span></div>
+  </div>
+</footer>
+<script>
+document.getElementById('nav').classList.add('solid');
+const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.12});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>

@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>DF Bâtiment — Entreprise générale du bâtiment · Bruxelles</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<style>
 :root{
   --white:#FFFFFF;--paper:#F7F6F3;--stone:#EDEDEA;--line:#DEDED9;
   --ink:#182830;--ink-soft:#2E3E47;--blue:#0078B8;--blue-deep:#005f93;--anno:#8A9099;
@@ -281,292 +271,59 @@ footer a:hover{color:#5BB4E0}
 @media(prefers-reduced-motion:reduce){
   .hero-stage{height:100vh}.rv{opacity:1;transform:none}
 }
-</style>
-</head>
-<body>
 
-<header class="nav solid" id="nav">
-  <div class="nav-in">
-    <a href="#" class="nav-logo" aria-label="DF Bâtiment"><img src="assets/logo-df.png" alt="DF Bâtiment"></a>
-    <nav class="nav-links">
-      <a href="realisations.html">Réalisations</a><a href="#expertises">Expertises</a><a href="#methode">Méthode</a><a href="#groupe">Groupe DF</a><a href="rejoignez-nous.html">Rejoignez-nous</a><a href="#contact">Contact</a>
-    </nav>
-    <div class="nav-right">
-      <a href="#" class="btn btn-ghost">Espace client</a>
-      <a href="#contact" class="btn btn-solid">Demander un devis <span class="ar">→</span></a>
-      <button class="nav-burger" aria-label="Menu"><span></span><span></span><span></span></button>
-    </div>
-  </div>
-</header>
-
-<!-- ===== HERO SCROLL ===== -->
-<div class="hero-stage" id="heroStage">
-  <div class="hero-sticky">
-    <div class="hero-video-wrap">
-      <img class="poster" id="heroPoster" src="assets/plan.jpg" alt="Plan DF Bâtiment">
-      <video id="heroVideo" muted playsinline webkit-playsinline preload="auto">
-        <source src="assets/construction.mp4" type="video/mp4">
-      </video>
-    </div>
-    <div class="hero-grid"></div>
-    <div class="hero-scrim"></div>
-
-    <div class="hero-content">
-      <div class="hero-eyebrow">Entreprise générale du bâtiment · Bruxelles</div>
-      <h1>Nous transformons<br>les plans<br>en <em>réalité.</em></h1>
-      <p class="sub">Faites défiler : du plan à la livraison, le bâtiment s'élève sous vos yeux.</p>
-      <div class="actions">
-        <a href="#realisations" class="btn btn-dark">Nos réalisations <span class="ar">→</span></a>
-        <a href="#contact" class="btn btn-ghost">Demander un devis</a>
-      </div>
-    </div>
-
-    <div class="hero-phase">
-      <div class="pn" id="pn">PHASE 01</div>
-      <div class="pnm" id="pnm">Gros œuvre</div>
-      <div class="pc" id="pc">STRUCTURE BÉTON · MAÇONNERIE</div>
-    </div>
-
-    <div class="hero-rail">
-      <span class="lbl">Chantier</span>
-      <div class="track"><div class="fill" id="heroFill"></div></div>
-      <span class="lbl" id="heroPct">0%</span>
-    </div>
-    <div class="hero-cue" id="heroCue">Défiler<span class="a"></span></div>
-  </div>
-</div>
-
-<!-- ===== MANIFESTO ===== -->
-<section class="manifesto">
-  <div class="wrap"><div class="mani-grid">
-    <div class="mani-l rv"><div class="eyebrow">Notre approche</div><h2>Plus qu'un entrepreneur,<br>un partenaire<br><em>d'exécution.</em></h2></div>
-    <div class="mani-r rv">
-      <p class="lead">DF Bâtiment pilote chaque chantier comme un chef d'orchestre : un responsable unique, une organisation millimétrée, une communication sans détour. Notre métier n'est pas seulement de bâtir — c'est de livrer un projet maîtrisé, durable et conforme.</p>
-      <div class="mani-pts">
-        <div class="mani-pt"><span class="n">01</span><div><strong>Interlocuteur unique</strong><p>Un seul responsable, du premier relevé à la remise des clés.</p></div></div>
-        <div class="mani-pt"><span class="n">02</span><div><strong>Planning tenu</strong><p>Des délais communiqués, suivis chaque semaine, et respectés.</p></div></div>
-        <div class="mani-pt"><span class="n">03</span><div><strong>Qualité contrôlée</strong><p>Un contrôle strict sur chaque corps de métier, chaque finition.</p></div></div>
-      </div>
-    </div>
-  </div></div>
-</section>
-
-<!-- ===== PARTENAIRES ===== -->
-<section class="partners">
-  <div class="wrap rv">
-    <div class="eyebrow">Architectes &amp; maîtres d'ouvrage qui nous confient leurs chantiers</div>
-    <div class="part-row">
-      <img src="https://df-batiment-site.vercel.app/assets/img/partners/adh.png" alt="ADH Architecte" onerror="this.style.display='none'">
-      <img src="https://df-batiment-site.vercel.app/assets/img/partners/sandstone.png" alt="Sandstone Development" onerror="this.style.display='none'">
-      <img src="https://df-batiment-site.vercel.app/assets/img/partners/notan.png" alt="Notan Office" onerror="this.style.display='none'">
-      <img src="https://df-batiment-site.vercel.app/assets/img/partners/archipole.png" alt="Archipole" onerror="this.style.display='none'">
-      <img src="https://df-batiment-site.vercel.app/assets/img/partners/he.png" alt="HE Architectuur" onerror="this.style.display='none'">
-      <img src="https://df-batiment-site.vercel.app/assets/img/partners/mccarre.png" alt="MC Carré" onerror="this.style.display='none'">
-      <img src="https://df-batiment-site.vercel.app/assets/img/partners/arxhi.png" alt="Arxhi" onerror="this.style.display='none'">
-    </div>
-  </div>
-</section>
-
-<!-- ===== EXPERTISES ===== -->
-<section class="exp" id="expertises">
-  <div class="wrap">
-    <div class="exp-head rv"><div class="eyebrow">Cinq expertises · un seul interlocuteur</div><h2>Ce que nous maîtrisons.</h2></div>
-    <div class="exp-grid">
-      <div class="exp-item rv"><span class="nl"></span><span class="n">01</span><h3>Construction neuve</h3><p>Du terrassement aux finitions, la maîtrise complète du gros œuvre et du second œuvre.</p><a class="go">En savoir plus →</a></div>
-      <div class="exp-item rv"><span class="nl"></span><span class="n">02</span><h3>Rénovation lourde</h3><p>Transformation, extension, mise aux normes et rénovation énergétique sur bâti existant.</p><a class="go">En savoir plus →</a></div>
-      <div class="exp-item rv"><span class="nl"></span><span class="n">03</span><h3>Gestion de chantier</h3><p>Coordination des corps de métier, planning, suivi budgétaire et reporting client.</p><a class="go">En savoir plus →</a></div>
-      <div class="exp-item rv"><span class="nl"></span><span class="n">04</span><h3>Ferronnerie</h3><p>Verrières, garde-corps et structures acier sur mesure — pôle DF Ferronnerie.</p><a class="go">En savoir plus →</a></div>
-      <div class="exp-item rv"><span class="nl"></span><span class="n">05</span><h3>Peinture & revêtements</h3><p>Revêtements et peintures haut de gamme — expertise Kansai Helios distribuée par DF Coatings.</p><a class="go">En savoir plus →</a></div>
-      <div class="exp-item cta-cell rv"><div class="eyebrow" style="color:rgba(255,255,255,.6)">Un projet en tête ?</div><h3>Parlons-en.</h3><a href="#contact" class="btn btn-solid" style="align-self:flex-start;margin-top:20px">Demander un devis <span class="ar">→</span></a></div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== RÉALISATIONS ===== -->
-<section class="real" id="realisations">
-  <div class="wrap"><div class="real-head rv">
-    <div><div class="eyebrow">Réalisations sélectionnées</div><h2>Le travail<br><em>parle.</em></h2></div>
-    <a href="realisations.html">Toutes les réalisations →</a>
-  </div></div>
-  <div class="wrap">
-    <div class="feat rv">
-      <div class="feat-img">
-        <img src="assets/immeuble-fini.jpg" alt="Immeuble de logements — Bruxelles">
-        <div class="feat-cote"><span class="line"></span><span class="val">R+3 · 12 logements</span></div>
-        <span class="feat-reg br"></span>
-      </div>
-      <div class="feat-body">
-        <div>
-          <div class="feat-cat">Construction neuve · Réf. 124</div>
-          <h3 class="feat-title">Immeuble<br>de logements</h3>
-          <p class="feat-exc">Immeuble de rapport contemporain : structure béton, façade brique et couronnement zinc. Gros œuvre et finitions en entreprise générale.</p>
-        </div>
-        <div>
-          <div class="feat-specs">
-            <div class="feat-spec"><span class="k">Lieu</span><span class="v">Bruxelles · 2025</span></div>
-            <div class="feat-spec"><span class="k">Programme</span><span class="v">12 logements</span></div>
-            <div class="feat-spec"><span class="k">Niveaux</span><span class="v">R+3 + zinc</span></div>
-            <div class="feat-spec"><span class="k">Mission</span><span class="v">Entreprise générale</span></div>
-          </div>
-          <a href="#" class="feat-cta">Voir le dossier de chantier <span class="ar">→</span></a>
-        </div>
-      </div>
-    </div>
-    <div class="duo rv">
-      <div class="duo-item">
-        <div class="duo-img"><img src="https://df-batiment-site.vercel.app/assets/img/p-facade-red.jpg" alt="Maison de maître" onerror="this.parentElement.style.background='linear-gradient(135deg,#d4cfc8,#b0a89c)'"></div>
-        <div class="duo-body"><div><div class="cat">Rénovation lourde</div><div class="t">Maison de maître</div><div class="m">Schaerbeek · 2023 · 310 m²</div></div><div class="num">02</div></div>
-      </div>
-      <div class="duo-item">
-        <div class="duo-img"><img src="https://df-batiment-site.vercel.app/assets/img/p-wood-interior.jpg" alt="Aménagement intérieur" onerror="this.parentElement.style.background='linear-gradient(135deg,#c8c4bc,#a39c90)'"></div>
-        <div class="duo-body"><div><div class="cat">Aménagement · Finitions</div><div class="t">Intérieur sur mesure</div><div class="m">Uccle · 2023 · 180 m²</div></div><div class="num">03</div></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== GARANTIES ===== -->
-<section class="garanties">
-  <div class="wrap"><div class="gar-grid">
-    <div class="gar-l rv">
-      <div class="eyebrow">Vos garanties</div>
-      <h2>Ce sur quoi vous pouvez <em>compter.</em></h2>
-      <div class="gar-list">
-        <div class="gar-item"><span class="gk">01</span><p>Un interlocuteur unique, du premier relevé à la remise des clés.</p></div>
-        <div class="gar-item"><span class="gk">02</span><p>Un planning clair, communiqué et respecté.</p></div>
-        <div class="gar-item"><span class="gk">03</span><p>Un suivi constant, étape par étape, sans zone d'ombre.</p></div>
-        <div class="gar-item"><span class="gk">04</span><p>Un contrôle qualité strict sur chaque finition.</p></div>
-        <div class="gar-item"><span class="gk">05</span><p>Une coordination fluide de tous les corps de métier.</p></div>
-      </div>
-    </div>
-    <div class="gar-r rv">
-      <img src="https://df-batiment-site.vercel.app/assets/img/p-facade-red.jpg" alt="Chantier DF Bâtiment" onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#2E3E47,#182830)'">
-      <div class="feat-cote"><span class="line"></span><span class="val">CONTRÔLE QUALITÉ · PT 0.00 — DF</span></div>
-      <span class="feat-reg br"></span>
-    </div>
-  </div></div>
-</section>
-
-<!-- ===== MÉTHODE ===== -->
-<section class="meth" id="methode">
-  <div class="wrap">
-    <div class="meth-head rv"><div class="eyebrow" style="color:#5BB4E0">Notre méthode</div><h2>Un chantier se pilote<br>comme un <em>planning.</em></h2><p>Chaque projet suit la même trame rigoureuse — de la première rencontre à la livraison. Vous savez toujours où en est votre chantier.</p></div>
-    <div class="meth-track">
-      <div class="jalon on rv"><div class="ph">01</div><h4>Rencontre</h4><p>Analyse du besoin, visite et relevé sur site.</p></div>
-      <div class="jalon on rv"><div class="ph">02</div><h4>Étude</h4><p>Métré détaillé et chiffrage transparent.</p></div>
-      <div class="jalon rv"><div class="ph">03</div><h4>Devis</h4><p>Offre claire, poste par poste, sans surprise.</p></div>
-      <div class="jalon rv"><div class="ph">04</div><h4>Planning</h4><p>Calendrier d'exécution validé ensemble.</p></div>
-      <div class="jalon rv"><div class="ph">05</div><h4>Exécution</h4><p>Coordination des corps de métier, suivi hebdo.</p></div>
-      <div class="jalon rv"><div class="ph">06</div><h4>Livraison</h4><p>Réception, garanties et suivi après-chantier.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== TEMOIGNAGES ===== -->
-<section class="temoin">
-  <div class="wrap">
-    <div class="temoin-head rv"><div class="eyebrow">Témoignages</div><h2>La confiance ne se promet pas.<br>Elle se <em>prouve.</em></h2></div>
-    <div class="temoin-grid">
-      <div class="tcard rv"><div class="q">“</div><p>Du devis à la remise des clés, tout a été tenu : les délais, le budget, la qualité. On savait toujours où en était le chantier. C'est rare et précieux.</p><div class="who"><span class="av">L</span><div><div class="nm">Laurent V.</div><div class="pr">Maison de maître · Schaerbeek</div></div></div></div>
-      <div class="tcard rv"><div class="q">“</div><p>Une équipe à l'écoute et un vrai sens du détail. Les finitions sont impeccables. Je recommande sans hésiter pour un projet d'envergure.</p><div class="who"><span class="av">S</span><div><div class="nm">Sophie M.</div><div class="pr">Rénovation lourde · Uccle</div></div></div></div>
-      <div class="tcard rv"><div class="q">“</div><p>Un partenaire d'exécution fiable, qui respecte les plans et communique avec rigueur. Nous leur confions nos chantiers les plus exigeants.</p><div class="who"><span class="av">A</span><div><div class="nm">Cabinet Auxau</div><div class="pr">Architecte partenaire</div></div></div></div>
-      <div class="tcard rv"><div class="q">“</div><p>Ils ont géré la complexité technique de A à Z. Coordination fluide, zéro stress. Le résultat dépasse ce qu'on avait imaginé.</p><div class="who"><span class="av">T</span><div><div class="nm">Thomas D.</div><div class="pr">Construction neuve · Haren</div></div></div></div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== RECRUTEMENT ===== -->
-<section class="recrut">
-  <div class="rgrid"></div>
-  <div class="wrap"><div class="recrut-in">
-    <div class="rv"><div class="eyebrow" style="color:#5BB4E0">On recrute</div><h2>Aucun projet trop ambitieux.<br>Aucun talent <em>de trop.</em></h2></div>
-    <div class="rv"><p>Chaque chantier est un nouveau défi, chaque détail compte. Nous cherchons des collaborateurs passionnés, rigoureux et engagés pour construire des projets durables — et une équipe solide.</p><a href="rejoignez-nous.html" class="btn btn-solid">Rejoindre l'équipe <span class="ar">→</span></a></div>
-  </div></div>
-</section>
-
-<!-- ===== GROUPE DF ===== -->
-<section class="groupe" id="groupe">
-  <div class="wrap">
-    <div class="groupe-head rv"><div class="eyebrow">Le groupe DF</div><h2>Trois métiers,<br>une même <em>exigence.</em></h2><p>Sous la marque DF, trois pôles spécialisés interviennent en synergie sur vos projets — du gros œuvre aux finitions les plus pointues.</p></div>
-    <div class="poles">
-      <div class="pole rv"><span class="nl"></span><div class="tag">Pôle principal</div><h3>DF <b>Bâtiment</b></h3><p>Entreprise générale : construction neuve, rénovation lourde et gestion de chantier.</p><div class="st live">● En activité</div></div>
-      <div class="pole rv"><span class="nl"></span><div class="tag">Revêtements & peintures</div><h3>DF <b>Coatings</b></h3><p>Distribution exclusive de l'expertise Kansai Helios en revêtements et peintures : solutions techniques et décoratives haut de gamme.</p><div class="st live">● En activité</div></div>
-      <div class="pole rv"><span class="nl"></span><div class="tag">Métal & structures</div><h3>DF <b>Ferronnerie</b></h3><p>Verrières, garde-corps et ouvrages acier sur mesure, conçus et posés en atelier intégré.</p><div class="st soon">○ Bientôt</div></div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== CTA ===== -->
-<section class="cta" id="contact">
-  <div class="wrap"><div class="cta-in">
-    <div class="rv"><h2>Un projet<br>de construction ?<br><em>Parlons-en.</em></h2></div>
-    <div class="cta-r rv">
-      <p>Décrivez-nous votre projet. Nous revenons vers vous sous 48 h avec une première analyse et les prochaines étapes.</p>
-      <a href="#" class="btn btn-dark">Demander un devis <span class="ar">→</span></a>
-      <div class="cta-mono"><span>+32 (0)2 850 70 33</span><span>info@df-batiment.be</span></div>
-    </div>
-  </div></div>
-</section>
-
-<!-- ===== FOOTER ===== -->
-<footer>
-  <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <img src="assets/logo-df.png" alt="DF Bâtiment">
-        <p>Entreprise générale du bâtiment à Bruxelles. Depuis 2009, nous construisons la confiance autant que les murs.</p>
-      </div>
-      <div><h5>Expertises</h5><a href="#">Construction neuve</a><a href="#">Rénovation lourde</a><a href="#">Gestion de chantier</a><a href="#">Ferronnerie</a><a href="#">Peinture & revêtements</a></div>
-      <div><h5>Groupe</h5><a href="#groupe">DF Bâtiment</a><a href="#groupe">DF Coatings</a><a href="#groupe">DF Ferronnerie</a><a href="realisations.html">Réalisations</a><a href="rejoignez-nous.html">Recrutement</a></div>
-      <div><h5>Contact</h5><span class="fp">Rue du Bassin collecteur 5<br>1130 Haren, Belgique</span><a href="tel:+3228507033">+32 (0)2 850 70 33</a><a href="mailto:info@df-batiment.be">info@df-batiment.be</a><span class="fp mono" style="margin-top:14px;color:rgba(255,255,255,.4)">BE 0824.286.796</span></div>
-    </div>
-    <div class="foot-bottom"><span class="mono">© 2026 DF Bâtiment — Tous droits réservés</span><span class="mono">Nous transformons les plans en réalité</span></div>
-  </div>
-</footer>
-
-<script>
-// NAV : passe en solide après le hero
-const nav=document.getElementById('nav');
-const heroStage=document.getElementById('heroStage');
-function navState(){
-  nav.classList.add('solid');
-}
-// HERO scroll-driven
-const video=document.getElementById('heroVideo');
-const poster=document.getElementById('heroPoster');
-const fill=document.getElementById('heroFill'),pct=document.getElementById('heroPct');
-const pn=document.getElementById('pn'),pnm=document.getElementById('pnm'),pc=document.getElementById('pc'),cue=document.getElementById('heroCue');
-const phases=[
-  {at:0.00,n:'PHASE 00',m:'Le plan',c:'ÉTUDE · PLAN DE COUPE A-A'},
-  {at:0.22,n:'PHASE 01',m:'Fondations',c:'IMPLANTATION · DALLE BÉTON'},
-  {at:0.45,n:'PHASE 02',m:'Structure',c:'ÉLÉVATION · ÉTAGE PAR ÉTAGE'},
-  {at:0.70,n:'PHASE 03',m:'Enveloppe',c:'FAÇADE · CHÂSSIS · BALCONS'},
-  {at:0.88,n:'PHASE 04',m:'Finitions',c:'ZINC · FINITIONS'},
-  {at:0.97,n:'PHASE 05',m:'Livraison',c:'LIVRÉ · DÉLAI TENU'}
-];
-let vidReady=false;
-if(video){
-  video.addEventListener('loadedmetadata',()=>{vidReady=true;});
-  video.addEventListener('canplay',()=>{poster.style.opacity='0';});
-  // forcer le chargement
-  video.load();
-}
-function clamp(v,a,b){return Math.max(a,Math.min(b,v));}
-function heroScroll(){
-  const total=heroStage.offsetHeight-window.innerHeight;
-  const p=clamp(window.scrollY/total,0,1);
-  if(vidReady && video.duration){video.currentTime=p*video.duration;}
-  fill.style.width=(p*100)+'%';pct.textContent=Math.round(p*100)+'%';
-  let cur=phases[0];for(const ph of phases){if(p>=ph.at)cur=ph;}
-  if(pnm.textContent!==cur.m){pn.textContent=cur.n;pnm.textContent=cur.m;pc.textContent=cur.c;}
-  cue.style.opacity=p>0.04?0:1;
-}
-function onScroll(){navState();heroScroll();}
-window.addEventListener('scroll',onScroll,{passive:true});
-window.addEventListener('resize',onScroll);onScroll();
-// reveal
-const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.12});
-document.querySelectorAll('.rv').forEach(el=>io.observe(el));
-</script>
-</body>
-</html>
+/* ===== PAGE HERO (sous-pages) ===== */
+.phero{position:relative;background:var(--ink);color:#fff;padding:150px 0 70px;overflow:hidden;border-bottom:1px solid rgba(255,255,255,.1)}
+.phero .rgrid{position:absolute;inset:0;z-index:1;opacity:.05;background-image:linear-gradient(#fff 1px,transparent 1px),linear-gradient(90deg,#fff 1px,transparent 1px);background-size:60px 60px}
+.phero .wrap{position:relative;z-index:2}
+.phero .eyebrow{color:#5BB4E0}.phero .eyebrow::before{background:#5BB4E0}
+.phero h1{font-family:var(--serif);font-weight:400;font-size:clamp(40px,5.5vw,78px);line-height:1;letter-spacing:-.025em;margin-top:20px;max-width:16ch}
+.phero h1 em{font-style:italic;color:#5BB4E0}
+.phero .lead{margin-top:24px;max-width:54ch;font-size:18px;line-height:1.6;color:rgba(255,255,255,.66);font-weight:300}
+.phero .crumb{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.4)}
+.phero .crumb a{color:rgba(255,255,255,.4)}.phero .crumb a:hover{color:#5BB4E0}
+/* generic section */
+.sec{padding:100px 0;border-bottom:1px solid var(--line)}
+.sec.paper{background:var(--paper)}
+.sec-head{max-width:640px;margin-bottom:50px}
+.sec-head h2{font-family:var(--serif);font-size:clamp(30px,3.6vw,48px);font-weight:400;letter-spacing:-.02em;margin-top:12px;line-height:1.05}
+.sec-head h2 em{font-style:italic;color:var(--blue)}
+.sec-head p{margin-top:16px;color:var(--ink-soft);font-size:16px;font-weight:300;line-height:1.65}
+/* project gallery */
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink);border-left:1px solid var(--line)}
+.pcard{position:relative;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--white);overflow:hidden}
+.pcard .pimg{height:300px;overflow:hidden;background:var(--paper);position:relative}
+.pcard .pimg img{width:100%;height:100%;object-fit:cover;transition:transform 1.4s var(--ease)}
+.pcard:hover .pimg img{transform:scale(1.05)}
+.pcard .pcote{position:absolute;top:18px;left:18px;z-index:2;display:flex;align-items:center}
+.pcard .pcote .line{width:42px;height:1px;background:#fff;position:relative}
+.pcard .pcote .line::before,.pcard .pcote .line::after{content:"";position:absolute;top:-3px;width:1px;height:7px;background:#fff}
+.pcard .pcote .line::before{left:0}.pcard .pcote .line::after{right:0}
+.pcard .pcote .val{font-family:var(--mono);font-size:8.5px;letter-spacing:.1em;color:#fff;margin-left:9px;text-shadow:0 1px 3px rgba(0,0,0,.5)}
+.pcard .pbody{padding:24px 26px}
+.pcard .cat{font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--blue)}
+.pcard .t{font-family:var(--serif);font-size:23px;font-weight:400;margin-top:8px}
+.pcard .m{font-family:var(--mono);font-size:9px;color:var(--anno);margin-top:8px;letter-spacing:.06em}
+/* jobs */
+.jobs{border-top:1px solid var(--ink)}
+.job{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:30px 4px;border-bottom:1px solid var(--line);transition:padding .3s var(--ease)}
+.job:hover{padding-left:18px}
+.job .jl .jt{font-family:var(--serif);font-size:26px;font-weight:400}
+.job .jl .jm{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--anno);margin-top:8px;display:flex;gap:18px;flex-wrap:wrap}
+.job .jcta{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);border-bottom:1px solid var(--blue);padding-bottom:3px;white-space:nowrap;flex:none}
+/* values */
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink);border-left:1px solid var(--line)}
+.vcell{padding:34px 30px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--white);position:relative;min-height:200px}
+.vcell .nl{position:absolute;top:-1px;left:0;width:34px;height:3px;background:var(--blue)}
+.vcell .n{font-family:var(--mono);font-size:9.5px;color:var(--blue);letter-spacing:.1em}
+.vcell h3{font-family:var(--serif);font-size:23px;font-weight:400;margin-top:14px}
+.vcell p{font-size:14px;color:var(--ink-soft);font-weight:300;margin-top:11px;line-height:1.6}
+/* prose / legal */
+.prose{max-width:760px}
+.prose h2{font-family:var(--serif);font-size:28px;font-weight:400;letter-spacing:-.01em;margin:42px 0 14px}
+.prose h2:first-child{margin-top:0}
+.prose p{font-size:15.5px;line-height:1.7;color:var(--ink-soft);font-weight:300;margin-bottom:14px}
+.prose strong{font-weight:500;color:var(--ink)}
+.prose .meta{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--anno);margin-bottom:30px}
+.prose a{color:var(--blue);border-bottom:1px solid var(--line)}
+@media(max-width:980px){.pgrid,.vgrid{grid-template-columns:1fr}.job{flex-direction:column;align-items:flex-start;gap:14px}.phero{padding-top:120px}}
